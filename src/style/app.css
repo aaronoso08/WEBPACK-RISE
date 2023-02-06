@@ -1,0 +1,28 @@
+
+.countdown {
+    margin-top: -1.8rem;  
+    text-align: center;
+    font-size: 45px;
+    font-family: Impact, fantasy;
+    color:black;
+  }
+  
+  .App-title {
+   color: white;
+   visibility: hidden;
+  }
+  
+  .App-date {
+    color: white;
+    visibility: hidden;
+  }
+  
+  .Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+        display: inline;
+        margin: 40px;
+  }
+  
+  .Deadline-input {
+    font-size: 10px;
+    margin: 10px;
+  }

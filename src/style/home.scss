@@ -1,0 +1,219 @@
+// .scene {
+//   width: 200px;
+//   height: 200px;
+//   margin: 2px auto 0;
+//   perspective: 100px;
+// }
+
+// .cube {
+//  position: relative;
+//   width: 100px;
+//   height: 300px;
+//   transform-style: preserve-3d;
+//   transform: translateZ(-150px) rotateX(0deg);
+//   animation: example 30s linear infinite;
+//   left: -9px;
+// }
+
+// .side {
+//   position: absolute;
+//   width: 400px;
+//   height: 300px;
+//   // box-sizing: border-box;
+//   background-color: black;
+//   // background-size: 80% 80%;
+  
+//   padding: 90px 0px;
+//   font-family:sans-serif;
+//   color: #fff;
+//   font-size: 51px;
+  
+// }
+// .side::before {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 80%;
+//   height: 80%;
+//   background: rgba(0, 0, 0, 0.15);
+// }
+// .side span {
+//   position: relative;
+//   display: block;
+// }
+
+// .back span {
+//   animation: back 15s linear infinite;
+// }
+// .top span {
+//   animation: top 20s linear infinite;
+// }
+// .bottom span {
+//   animation: bottom 15s linear infinite;
+// }
+// .front span {
+//   animation: front 15s linear infinite;
+// }
+
+// .guides {
+//   position: absolute;
+//   top: 0;
+//   left: 50px;
+//   width: 200px;
+//   height: 100%;
+//   border-style: dotted;
+//   border-width: 0 1px;
+//   color: rgba(255, 255, 255, 0.6);
+// }
+// .guides::before {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 50%;
+//   width: 0;
+//   height: 100%;
+//   border-left: 1px dotted;
+// }
+
+// .back {
+//   transform: translateZ(-150px) rotateX(180deg);
+// }
+// .top {
+//   transform: translateY(-150px) rotateX(90deg);
+// }
+// .bottom {
+//   transform: translateY(150px) rotateX(270deg);
+// }
+// .front {
+//   transform: translateZ(150px);
+// }
+
+// .back {
+//   background-image: url(https://askd.github.io/codepen/back.jpg);
+// }
+// .top {
+//   background-image: url(https://askd.github.io/codepen/top.jpg);
+// }
+// .bottom {
+//   background-image: url(https://askd.github.io/codepen/bottom.jpg);
+// }
+// .front {
+//   background-image: url(https://askd.github.io/codepen/front.jpg);
+// }
+
+// @keyframes example {
+//   0% { transform: translateZ(-150px) rotateX(0deg); }
+//     15% { transform: translateZ(-150px) rotateX(90deg); }
+//     25% { transform: translateZ(-150px) rotateX(90deg); }
+//     40% { transform: translateZ(-150px) rotateX(180deg); }
+//     50% { transform: translateZ(-150px) rotateX(180deg); }
+//     65% { transform: translateZ(-150px) rotateX(270deg); }
+//     75% { transform: translateZ(-150px) rotateX(270deg); }
+//     90% { transform: translateZ(-150px) rotateX(360deg); }
+//     100% { transform: translateZ(-150px) rotateX(360deg); }
+// }
+
+// @keyframes front {
+//   0% { transform: translateY(0px) }
+//     15% { transform: translateY(-100px); }
+//     25% { transform: translateY(-100px); }
+//     40% { transform: translateY(0px); }
+//     50% { transform: translateY(0px); }
+//     65% { transform: translateY(100px); }
+//     75% { transform: translateY(100px); }
+//     90% { transform: translateY(0px); }
+//     100% { transform: translateY(0px); }
+// }
+// @keyframes bottom {
+//   0% { transform: translateY(100px) }
+//     15% { transform: translateY(0px); }
+//     25% { transform: translateY(0px); }
+//     40% { transform: translateY(-100px); }
+//     50% { transform: translateY(-100px); }
+//     65% { transform: translateY(0px); }
+//     75% { transform: translateY(0px); }
+//     90% { transform: translateY(100px); }
+//     100% { transform: translateY(100px); }
+// }
+// @keyframes back {
+//   0% { transform: translateY(0px) }
+//     15% { transform: translateY(100px); }
+//     25% { transform: translateY(100px); }
+//     40% { transform: translateY(0px); }
+//     50% { transform: translateY(0px); }
+//     65% { transform: translateY(-100px); }
+//     75% { transform: translateY(-100px); }
+//     90% { transform: translateY(0px); }
+//     100% { transform: translateY(0px); }
+// }
+// @keyframes top {
+//   0% { transform: translateY(-100px) }
+//     15% { transform: translateY(0px); }
+//     25% { transform: translateY(0px); }
+//     40% { transform: translateY(100px); }
+//     50% { transform: translateY(100px); }
+//     65% { transform: translateY(0px); }
+//     75% { transform: translateY(0px); }
+//     90% { transform: translateY(-100px); }
+//     100% { transform: translateY(-100px); }
+// }
+
+
+// .background {
+//   background-image: url("https://www.canva.com/design/DAFZvk2PPas/4ngkTE552paZ0Dqqs0wL3w/watch?utm_content=DAFZvk2PPas&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink");
+//   height: 1000px;
+//   background-position: center; 
+//   background-repeat: no-repeat; 
+//   background-size: cover; 
+//   opacity: 0.9;
+  
+// }
+
+// .guides1 {
+//   background-image: url("https://media.giphy.com/media/3ohuPBA3489AkQk1i0/giphy.gif" );
+//   height: 80px;
+//   background-position: center; 
+//   background-repeat: no-repeat; 
+//   background-size: cover; 
+ 
+// }
+.background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+
+
+
+.icon2 {
+  text-align: center;
+  font-size: 5em;
+  padding: 2px 10px;
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa { 
+  font-family: "Font Awesome 5 brands";
+}
+}
+
+
+.fab {
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+display: inline-block;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+line-height: 1;
+}
